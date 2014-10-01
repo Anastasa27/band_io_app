@@ -4,3 +4,14 @@
   <input type="submit"/>
 </form>
 
+ <% @events.each  do |event| %>
+ Date:<%= event.date %></br>
+ Alcohol:<%= event.alcohol_served %></br>
+  <% @band.each do |band| %>
+  <% if band.id == event.band_id %>
+ Band:  <%= band.name %></br></br>
+ <% end %>
+ <% end %>
+ Venue:<%= @venue %></br>
+
+<% end %>
