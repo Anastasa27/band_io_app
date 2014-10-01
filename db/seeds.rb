@@ -16,8 +16,8 @@ e4 = Event.create(date: Date.tomorrow, venue_id: 4, band_id: 4)
 
 b1 = Band.create(name: "Mr. Quintron" ,genre: "Indie")
 b2 = Band.create(name: "The Oblivians" ,genre: "Indie")
-b3 = Band.create(name: "Meshugga" ,genre: "Death Metal" ,explicit_lyrics: true)
-b4 = Band.create(name: "Pizzacato Five" ,genre: "Japanese Pop")
+b3 = Band.create(name: "Meshugga",genre: "Death Metal" ,explicit_lyrics: true)
+b4 = Band.create(name: "Pizzacato Five",genre: "Japanese Pop")
 
 
 # b1.event = e1

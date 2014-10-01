@@ -1,3 +1,4 @@
+<section_id="bands">
 <h1>Listing bands</h1>
 
 <table>
@@ -18,7 +19,7 @@
         <td><%= band.explicit_lyrics %></td>
         <td><%= link_to 'Show', band %></td>
         <td><%= link_to 'Edit', edit_band_path(band) %></td>
-        <td><%= link_to 'Destroy', band, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', band, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -27,3 +28,4 @@
 <br>
 
 <%= link_to 'New Band', new_band_path %>
+</section>

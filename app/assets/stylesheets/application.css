@@ -19,11 +19,12 @@
  header {
   color: white;
   font-weight: bold;
-  text-align: left;
+ /* text-align: left;*/
   font-family: 'Amatic SC', cursive;
 }
 
 body {
+  text-align: center;
   color: white;
   background: url(http://i.imgur.com/cAlXJ3q.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -61,4 +62,8 @@ p {
   color: white;
   font-weight: bold;
   font-size: 28px;
+}
+
+section_id="bands" {
+  text-align: center;
 }
