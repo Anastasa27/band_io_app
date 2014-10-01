@@ -44,18 +44,22 @@ a:visited {
 }
 
 
+
 body {
 color: white;
 text-align: center;
 font-family: 'Amatic SC', cursive;
 font-size: 25px;
+font-weight: bold;
 }
 
 h1 {
-  color: white;
+
+  text-align: left;
+  color: blue;
   font-family: 'Amatic SC', cursive;
-  font-weight: bold;
-  font-size: 32px;
+  font-weight: strong;
+  font-size: 65px;
 }
 
 p {
@@ -64,6 +68,3 @@ p {
   font-size: 28px;
 }
 
-section_id="bands" {
-  text-align: center;
-}
